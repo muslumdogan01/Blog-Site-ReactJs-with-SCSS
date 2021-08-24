@@ -1,0 +1,103 @@
+.write {
+  padding-top: 50px;
+}
+
+.write .writeImg {
+  margin-left: 150px;
+  width: 70vw;
+  height: 250px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.write .writeForm {
+  position: relative;
+}
+
+.write .writeForm .writeFormGroup {
+  margin-left: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.write .writeForm .writeFormGroup .writeIcon {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  color: #817d7d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.write .writeForm .writeFormGroup .writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+}
+
+.write .writeForm .writeFormGroup .writeInput::-webkit-input-placeholder {
+  color: #bdb9b9;
+  font-weight: 400;
+}
+
+.write .writeForm .writeFormGroup .writeInput:-ms-input-placeholder {
+  color: #bdb9b9;
+  font-weight: 400;
+}
+
+.write .writeForm .writeFormGroup .writeInput::-ms-input-placeholder {
+  color: #bdb9b9;
+  font-weight: 400;
+}
+
+.write .writeForm .writeFormGroup .writeInput::placeholder {
+  color: #bdb9b9;
+  font-weight: 400;
+}
+
+.write .writeForm .writeFormGroup .writeInput:focus {
+  outline-style: none;
+}
+
+.write .writeForm .writeFormGroup .writeText {
+  width: 70vw;
+  height: 100vh;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.write .writeForm .writeSubmit {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Write.css.map */

@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+:root {
+  --text-color: #444;
+  --josefin: "Josefin Sans", sans-serif;
+  --Lora: "Lora", serif;
+  --Varela: "Varela", sans-serif;
+  --Varela-round: "Varela Round", sans-serif;
+}
+/*# sourceMappingURL=main.css.map */

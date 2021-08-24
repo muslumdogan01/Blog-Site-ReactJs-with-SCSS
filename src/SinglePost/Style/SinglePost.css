@@ -1,0 +1,73 @@
+.singlePost {
+  -webkit-box-flex: 9;
+      -ms-flex: 9;
+          flex: 9;
+}
+
+.singlePost .singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+}
+
+.singlePost .singlePostWrapper .singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.singlePost .singlePostWrapper .singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-size: 28px;
+  font-family: "Lora", sans-serif;
+}
+
+.singlePost .singlePostWrapper .singlePostTitle .singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePost .singlePostWrapper .singlePostTitle .singlePostEdit .singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePost .singlePostWrapper .singlePostTitle .singlePostEdit .singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePost .singlePostWrapper .singlePostTitle .singlePostEdit .singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePost .singlePostWrapper .singlePostInfo {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 16px;
+  color: #be9656;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+.singlePost .singlePostWrapper .singlePostInfo .singlePostAuthor {
+  margin-left: 5px;
+}
+
+.singlePost .singlePostWrapper .singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePost .singlePostWrapper .singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=SinglePost.css.map */

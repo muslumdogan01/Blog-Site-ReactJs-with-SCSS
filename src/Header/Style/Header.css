@@ -1,0 +1,40 @@
+.header {
+  margin-top: 60px;
+}
+
+.header .header-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Lora", serif;
+  color: var(--text-color);
+}
+
+.header .header-title .header-titleSm {
+  position: absolute;
+  top: 18%;
+  font-size: 20px;
+}
+
+.header .header-title .header-titleLg {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+  font-style: italic;
+}
+
+.header .header-img {
+  width: 100%;
+  height: 450px;
+  margin-top: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=Header.css.map */

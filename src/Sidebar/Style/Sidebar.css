@@ -1,0 +1,94 @@
+.sidebar {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin: 20px;
+  padding-bottom: 30px;
+  background-color: #fdfbfb;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sidebar .sidebarItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sidebar .sidebarItem img {
+  margin-top: 15px;
+  width: 250px;
+  height: 250px;
+}
+
+.sidebar .sidebarItem p {
+  padding: 30px;
+}
+
+.sidebar .sidebarItem .sidebarList {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+.sidebar .sidebarItem .sidebarList .sidebarListItem {
+  display: inline-block;
+  width: 50%;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.sidebar .sidebarItem .sidebarSocial {
+  margin-top: 15px;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sidebar .sidebarItem .sidebarSocial .sidebarIcon {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.sidebar .sidebarTitle {
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  border-top: 1px solid #a7a4a4;
+  border-bottom: 1px solid #a7a4a4;
+  font-family: var(--Varela-round);
+  font-size: 12px;
+  line-height: 19px;
+  color: #222222;
+  font-weight: 600;
+  text-align: center;
+}
+/*# sourceMappingURL=Sidebar.css.map */

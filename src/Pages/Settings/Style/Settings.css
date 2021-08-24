@@ -1,0 +1,131 @@
+.settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.settings .settingsWrapper {
+  -webkit-box-flex: 9;
+      -ms-flex: 9;
+          flex: 9;
+  padding: 20px;
+}
+
+.settings .settingsWrapper .settingsTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.settings .settingsWrapper .settingsTitle .settingsTitleUpdate {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: lightcoral;
+}
+
+.settings .settingsWrapper .settingsTitle .settingsTitleDelete {
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.settings .settingsWrapper .settingsForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.settings .settingsWrapper .settingsForm .settingsForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.settings .settingsWrapper .settingsForm input {
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.settings .settingsWrapper .settingsForm .settingsPP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.settings .settingsWrapper .settingsForm .settingsPP .settingsPPInput {
+  width: 30%;
+}
+
+.settings .settingsWrapper .settingsForm .settingsPP img {
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.settings .settingsWrapper .settingsForm .settingsPP .settingsPPIcon {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 50%;
+  margin-left: 10px;
+  color: white;
+  background-color: lightcoral;
+  cursor: pointer;
+}
+
+.settings .settingsWrapper .settingsForm .settingsSubmitButton {
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.settings .settingsWrapper .settingsForm .settingsSubmitButton:hover {
+  background-color: #017272;
+}
+/*# sourceMappingURL=Settings.css.map */
