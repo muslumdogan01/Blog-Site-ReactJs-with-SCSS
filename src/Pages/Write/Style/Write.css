@@ -1,14 +1,27 @@
 .write {
   padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .write .writeImg {
-  margin-left: 150px;
   width: 70vw;
-  height: 250px;
+  height: 350px;
   border-radius: 10px;
   -o-object-fit: cover;
      object-fit: cover;
+  background-position: center;
 }
 
 .write .writeForm {
@@ -16,13 +29,13 @@
 }
 
 .write .writeForm .writeFormGroup {
-  margin-left: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 30px;
 }
 
 .write .writeForm .writeFormGroup .writeIcon {
@@ -84,8 +97,8 @@
 
 .write .writeForm .writeSubmit {
   position: absolute;
-  top: 20px;
-  right: 50px;
+  top: 50px;
+  right: 190px;
   color: white;
   background-color: teal;
   padding: 10px;

@@ -1,0 +1,40 @@
+.about {
+  margin-top: 60px;
+  height: 100vh;
+  .about-img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .image {
+      width: 70vw;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+      opacity: 0.5;
+      background-color: Black;
+      z-index: 10;
+    }
+    .about-description {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      h1 {
+        display: flex;
+        font-size: 5rem;
+        color: black;
+        font-weight: bold;
+        font-family: var(--Lora);
+      }
+      p {
+        display: flex;
+        font-size: 2rem;
+        color: black;
+        font-family: var(--Varela);
+      }
+    }
+  }
+}

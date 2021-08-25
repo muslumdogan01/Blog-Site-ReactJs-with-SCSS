@@ -43,6 +43,11 @@
   color: var(--text-color);
 }
 
+.topBar .topBar-left .topIcon:hover,
+.topBar .topBar-right .topIcon:hover {
+  color: #666;
+}
+
 .topBar .topBar-left img,
 .topBar .topBar-right img {
   width: 40px;
@@ -80,6 +85,7 @@
 
 .topBar .topBar-center .topBar-center-List li {
   margin-right: 20px;
+  border-radius: 2px;
   font-size: 18px;
   font-weight: 300;
   cursor: pointer;
@@ -89,9 +95,19 @@
   transition: 0.5s ease-in-out;
 }
 
+.topBar .topBar-center .topBar-center-List li .btn {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
 .topBar .topBar-center .topBar-center-List li:hover {
+  background-color: #bbb8b8;
+  color: white;
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
-  color: #f39c12;
+}
+
+.topBar .topBar-center .topBar-center-List li:hover .btn {
+  color: white;
 }
 /*# sourceMappingURL=TopBar.css.map */

@@ -24,6 +24,9 @@ $searchColor: #666;
       margin-right: 10px;
       cursor: pointer;
       color: var(--text-color);
+      &:hover {
+        color: #666;
+      }
     }
     img {
       width: 40px;
@@ -46,16 +49,24 @@ $searchColor: #666;
       align-items: center;
       li {
         margin-right: 20px;
+
+        border-radius: 2px;
         font-size: 18px;
         font-weight: 300;
         cursor: pointer;
         color: var(--text-color);
         padding: 10px;
-
         transition: 0.5s ease-in-out;
+        .btn {
+          transition: 0.5s ease-in-out;
+        }
         &:hover {
+          background-color: rgb(187, 184, 184);
+          color: white;
           transform: translateY(-3px);
-          color: #f39c12;
+        }
+        &:hover .btn {
+          color: white;
         }
       }
     }

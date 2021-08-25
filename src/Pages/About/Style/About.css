@@ -1,0 +1,64 @@
+.about {
+  margin-top: 60px;
+  height: 100vh;
+}
+
+.about .about-img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.about .about-img .image {
+  width: 70vw;
+  height: auto;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.5;
+  background-color: Black;
+  z-index: 10;
+}
+
+.about .about-img .about-description {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about .about-img .about-description h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 5rem;
+  color: black;
+  font-weight: bold;
+  font-family: var(--Lora);
+}
+
+.about .about-img .about-description p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  color: black;
+  font-family: var(--Varela);
+}
+/*# sourceMappingURL=About.css.map */

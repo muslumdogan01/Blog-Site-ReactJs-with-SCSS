@@ -15,24 +15,34 @@ function topbar() {
       <div className="topBar-center">
         <ul className="topBar-center-List">
           <li>
-            <Link to="/">HOME</Link>
+            <Link className="btn" to="/">
+              HOME
+            </Link>
           </li>
           <li>
-            <Link to="/About">ABOUT</Link>
+            <Link className="btn" to="/About">
+              ABOUT
+            </Link>
           </li>
           <li>
-            <Link to="/Write">WRİTE</Link>
+            <Link className="btn" to="/Write">
+              WRİTE
+            </Link>
           </li>
           <li>
-            <Link to="/Contact">CONTACT</Link>
+            <Link className="btn" to="/Contact">
+              CONTACT
+            </Link>
           </li>
         </ul>
       </div>
       <div className="topBar-right">
-        <img
-          src="https://pbs.twimg.com/profile_images/1404810765736022026/LWLJGzOs_400x400.jpg"
-          alt=""
-        />
+        <Link to="/Login">
+          <img
+            src="https://pbs.twimg.com/profile_images/1404810765736022026/LWLJGzOs_400x400.jpg"
+            alt=""
+          />
+        </Link>
         <i className="topSearchIcon fas fa-search"></i>
       </div>
     </div>

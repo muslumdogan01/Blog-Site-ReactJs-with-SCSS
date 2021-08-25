@@ -1,18 +1,22 @@
 .write {
   padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   .writeImg {
-    margin-left: 150px;
     width: 70vw;
-    height: 250px;
+    height: 350px;
     border-radius: 10px;
     object-fit: cover;
+    background-position: center;
   }
   .writeForm {
     position: relative;
     .writeFormGroup {
-      margin-left: 150px;
       display: flex;
       align-items: center;
+      margin-left: 30px;
       .writeIcon {
         width: 25px;
         height: 25px;
@@ -47,8 +51,8 @@
     }
     .writeSubmit {
       position: absolute;
-      top: 20px;
-      right: 50px;
+      top: 50px;
+      right: 190px;
       color: white;
       background-color: teal;
       padding: 10px;
